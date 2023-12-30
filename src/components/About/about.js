@@ -4,11 +4,11 @@ import { Link } from 'react-scroll'
 
 const About = () => {
     return (
-        <section className="aboutSection">
+        <section id='aboutSection'>
             <span className="aboutHeading">About Me</span>
             <span className="aboutDesc">Skilled and passionate person</span>
             <div className="aboutDetails">
-                <p>
+                <p className="aboutForm">
                     <span>Name:</span>
                     <span>Date of Birth:</span>
                     <span>Address:</span>

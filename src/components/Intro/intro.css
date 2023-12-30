@@ -1,15 +1,17 @@
-.intro {
+#intro {
     
     margin: 0 auto;
     width: 100vw;
     max-width: 70rem;  
     display: flex;
+    height: 100vh;
+     
     
 }
 
 .introContent {
-    height: 100vh;
-    padding: 2rem;
+   
+    padding: 1.5rem;
     font-size: 3rem;
     font-weight: 800;
     display: flex;

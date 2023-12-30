@@ -1,11 +1,11 @@
 .navbar {
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 1rem;
     height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     max-width: 70rem;
     position: sticky;
     z-index: 3;
@@ -40,4 +40,44 @@
     background-color: white;
     cursor: pointer;
     border: none;
+}
+
+.active {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+
+.navMenu {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    top: 4rem;
+    right: 2rem;
+}
+.ListItem {
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.ListItem:hover {
+    color: yellow;
+    border-bottom: 3px solid yellow;
+    
+}
+.mobMenu {
+    object-fit: cover;
+    height: 1.8rem;
+    display: none;
+}
+
+@media  screen and (max-width:450px) {
+    .mobMenu {
+        display: block;
+    }
+    .desktopMenuListItem , .desktopMenuBtn {
+        display: none;
+    }  
+
 }

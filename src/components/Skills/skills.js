@@ -6,7 +6,7 @@ import AppDev from '../../assets/app-design.png'
 
 const Skills = () => {
     return (
-        <section className="skillSection">
+        <section id="skills">
             <span className="skillsHeading">Skills</span>
             <span className="skillsDesc">I am a skilled person who loves to code</span>
             <div className="skillBars">

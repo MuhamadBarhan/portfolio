@@ -1,20 +1,21 @@
-.aboutSection {
+
+#aboutSection {
     margin: 0 auto;
     overflow: hidden;
-    height: 80vh;
-    width: 100vw;
+    height: 90vh;
+    width: 100%;
     max-width: 70rem;
     display: flex;
     flex-direction: column;
-   
-   
     
 }
+
 
 .aboutHeading{
     font-size: 2.5rem;
     font-weight:bolder;
     margin-left: 2rem;
+    
 }
 
 .aboutDesc {
@@ -23,14 +24,19 @@
     letter-spacing: 1px;
     color: grey;
     margin-left: 2rem;
+
 }
 
 .aboutDetails p {
     display: inline-grid;
-    margin: 2rem;
     font-size:medium;
     font-weight: 300;
     letter-spacing: 1px;
+    
+}
+.aboutForm {
+    margin-left:2rem;
+    margin-top:2rem;
 }
 
 .aboutDetails p span {
@@ -43,30 +49,50 @@
 
 .cvBtn {
     background: white;
-    
     color: black;
     padding: 0.75rem 2rem;
     border-radius: 2rem;
     border: none;
-    margin-left: 2rem;
+    margin: 2rem; 
 }
 
 @media  screen and (max-width:550px) {
+    .aboutForm {
+        margin-left: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 0.6rem;
+    }
+
+}
+
+@media  screen and (max-width:450px) {
+    .aboutForm {
+        margin-left: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .aboutSection {
+        height: 50vh;
+    }
     .aboutDetails p {
-        margin: 1.5rem;
         font-size: 0.8rem;
     }
  
 }
 
-@media  screen and (max-width:450px) {
-    .aboutDetails p {
-        margin: 1.5rem;
-        font-size: 0.6rem;
+@media  screen and (max-width:370px) {
+    .aboutForm {
+        margin-left: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 0.7rem;
     }
 
     .aboutSection {
         height: 50vh;
+    }
+    .aboutDetails p {
+        font-size: 0.6rem;
     }
  
 }
