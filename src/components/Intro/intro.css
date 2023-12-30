@@ -1,0 +1,51 @@
+.intro {
+    
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 70rem;  
+    display: flex;
+    
+}
+
+.introContent {
+    height: 100vh;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 1rem;
+    font-weight: 700;
+    color: yellow;
+}
+
+.introName {
+    color: yellow;
+}
+
+.introTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    
+}
+
+.introPara {
+    font-size:medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 1rem 0;
+}
+
+.introBtn {
+    background: white;
+    margin: 1rem 0;
+    color: black;
+    padding: 0.75rem 2rem;
+    border-radius: 2rem;
+    border: none;
+}
+
