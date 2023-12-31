@@ -85,6 +85,7 @@
     .logo {
         height: 5rem;
         width: 4rem;
+        padding-top: 5px;
     }
 
 }
