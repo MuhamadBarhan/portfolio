@@ -81,5 +81,10 @@
     .desktopMenuListItem , .desktopMenuBtn {
         display: none;
     }  
+    
+    .logo {
+        height: 5rem;
+        width: 4rem;
+    }
 
 }
