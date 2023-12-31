@@ -31,7 +31,7 @@
 }
 .skillBar {
     display: flex;
-    background: rgb(60, 60, 60);
+    background: rgb(30, 30, 30);
     border-radius: 1rem;
     margin: 1rem;
     padding: 1.5rem;
