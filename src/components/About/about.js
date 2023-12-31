@@ -1,10 +1,15 @@
 import React from 'react'
 import './about.css'
 import { Link } from 'react-scroll'
+import { useInView } from 'react-intersection-observer';
 
 const About = () => {
+    const [ref, inView] = useInView({
+        triggerOnce: true,
+      });
+
     return (
-        <section id='aboutSection'>
+        <section id='aboutSection' ref={ref} className={`scroll-container ${inView ? 'animate' : ''}`}>
             <span className="aboutHeading">About Me</span>
             <span className="aboutDesc">Skilled and passionate person</span>
             <div className="aboutDetails">

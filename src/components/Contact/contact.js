@@ -1,9 +1,15 @@
 import React from 'react'
 import './contact.css'
+import { useInView } from 'react-intersection-observer';
 
 const Contact = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
+
   return (
-    <section id='contact'>
+    <section id='contact' ref={ref} className={`scroll-container ${inView ? 'animate' : ''}`}>
       <span className="contactHeading">Let's Connect</span>
       <span className="contactDesc">Connect with each other for collaborations</span>
       <form className="contactForm">

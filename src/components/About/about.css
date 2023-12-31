@@ -1,4 +1,3 @@
-
 #aboutSection {
     margin: 0 auto;
     overflow: hidden;
@@ -7,15 +6,26 @@
     max-width: 70rem;
     display: flex;
     flex-direction: column;
-    
+
+}
+
+.scroll-container {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s, transform 0.8s;
+}
+
+.scroll-container.animate {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 
-.aboutHeading{
+.aboutHeading {
     font-size: 2.5rem;
-    font-weight:bolder;
+    font-weight: bolder;
     margin-left: 2rem;
-    
+
 }
 
 .aboutDesc {
@@ -29,14 +39,15 @@
 
 .aboutDetails p {
     display: inline-grid;
-    font-size:medium;
+    font-size: medium;
     font-weight: 600;
     letter-spacing: 1px;
-    
+
 }
+
 .aboutForm {
-    margin-left:2rem;
-    margin-top:2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
 
 .aboutDetails p span {
@@ -53,10 +64,10 @@
     padding: 0.75rem 2rem;
     border-radius: 2rem;
     border: none;
-    margin: 2rem; 
+    margin: 2rem;
 }
 
-@media  screen and (max-width:550px) {
+@media screen and (max-width:550px) {
     .aboutForm {
         margin-left: 1.5rem;
         margin-bottom: 1.5rem;
@@ -65,7 +76,7 @@
 
 }
 
-@media  screen and (max-width:450px) {
+@media screen and (max-width:450px) {
     .aboutForm {
         margin-left: 1.5rem;
         margin-bottom: 1.5rem;
@@ -75,13 +86,14 @@
     #aboutSection {
         height: 60vh;
     }
+
     .aboutDetails p {
         font-size: 0.8rem;
     }
- 
+
 }
 
-@media  screen and (max-width:370px) {
+@media screen and (max-width:370px) {
     .aboutForm {
         margin-left: 1.5rem;
         margin-bottom: 1.5rem;
@@ -91,8 +103,9 @@
     #aboutSection {
         height: 60vh;
     }
+
     .aboutDetails p {
         font-size: 0.6rem;
     }
- 
+
 }
