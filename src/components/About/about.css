@@ -1,9 +1,9 @@
 #aboutSection {
     margin: 0 auto;
-    overflow: hidden;
-    height: 80vh;
+    padding-top: 3rem;
+    height: 100vh;
     width: 100%;
-    max-width: 70rem;
+    background-color: rgb(43, 43, 43);
 }
 
 .scroll-container {
@@ -55,7 +55,7 @@
 }
 
 .cvBtn {
-    background: white;
+    background: var(--ter-color);
     color: black;
     padding: 0.75rem 2rem;
     border-radius: 2rem;

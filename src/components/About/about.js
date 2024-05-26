@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 
 const About = () => {
     const [ref, inView] = useInView({
-        triggerOnce: true,
+        triggerOnce: false,
       });
 
     return (
@@ -29,7 +29,7 @@ const About = () => {
                 </p>
                 
             </div>
-            <Link><button className="cvBtn">DOWNLOAD CV</button></Link>
+            <Link><button className="cvBtn">Resume</button></Link>
         </section>
     )
 }

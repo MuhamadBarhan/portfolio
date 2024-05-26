@@ -1,5 +1,5 @@
 #skills{
-    margin: 0 auto;
+    margin: 1rem auto;
     overflow: hidden;
     width: 100%;
     height: auto;
@@ -17,7 +17,7 @@
 }
 
 .skillsDesc {
-    font-size: medium;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
     color: grey;
@@ -29,9 +29,9 @@
 }
 .skillBar {
     background: rgb(30, 30, 30);
-    width: 150px;
+    width: 180px;
     border-radius: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
     padding: 1.5rem;
 }
 
@@ -64,6 +64,16 @@
   @media screen and (max-width:450px) {
     .skillBars {
         grid-template-columns: 1fr 1fr;
+    }
+    
+  }
+
+  @media screen and (max-width:370px) {
+    .skillBar {
+        width: 160px;
+    }
+    .skillsDesc {
+        font-size: 14px;
     }
     
   }

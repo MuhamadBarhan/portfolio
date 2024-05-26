@@ -6,7 +6,7 @@ import {faLinkedinIn ,faGithub, faInstagram } from '@fortawesome/free-brands-svg
 
 const Intro = () => {
     const [ref, inView] = useInView({
-        triggerOnce: true,
+        triggerOnce: false,
       });
     
 
@@ -18,9 +18,9 @@ const Intro = () => {
                 <span className="introTitle">Web Designer</span>
                 <p className="introPara">I am a skilled web designer with experience in creating visually <br/>appealing and user friendly websites</p>
                 <div className="contact-container">
-                    <a className='contact-icon' href='https://www.linkedin.com/in/muhamad-barhan-h/' target='_blank'><FontAwesomeIcon icon={faLinkedinIn} className='fa-icon'/></a>
-                    <a className='contact-icon' href='https://github.com/MuhamadBarhan' target='_blank'><FontAwesomeIcon icon={faGithub} className='fa-icon'/></a>
-                    <a className='contact-icon' href='https://instagram.com/farhan__mhd__' target='_blank'><FontAwesomeIcon icon={faInstagram} className='fa-icon'/></a>
+                    <a className='contact-icon' href='https://www.linkedin.com/in/muhamad-barhan-h/'><FontAwesomeIcon icon={faLinkedinIn} className='fa-icon'/></a>
+                    <a className='contact-icon' href='https://github.com/MuhamadBarhan'><FontAwesomeIcon icon={faGithub} className='fa-icon'/></a>
+                    <a className='contact-icon' href='https://instagram.com/farhan__mhd__'><FontAwesomeIcon icon={faInstagram} className='fa-icon'/></a>
                 </div>
             </div>
         </section>

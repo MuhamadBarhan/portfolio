@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 
 const Skills = () => {
     const [ref, inView] = useInView({
-        triggerOnce: true,
+        triggerOnce: false,
       });
 
     return (

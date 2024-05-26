@@ -10,6 +10,7 @@
 :root {
     --main-color:rgb(10, 10, 10);
     --sec-color:#FFD700;
+    --ter-color: #ff4500;
 }
 
 body {
