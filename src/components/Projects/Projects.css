@@ -1,0 +1,64 @@
+#projects {
+    margin: 1rem auto;
+    overflow: hidden;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+}
+
+.projects-heading {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-left: 2rem;
+}
+
+.project-container {
+    margin: 1.5rem;
+}
+
+.project {
+    background-color: rgb(30, 30, 30);
+    border-radius: 5px;
+    padding: 1.5rem;
+    line-height: 3rem;
+    margin: 1rem;
+}
+
+.project p {
+    margin-bottom: 1rem;
+    font-family: Arial;
+    line-height: 2rem;
+    color: rgb(172, 172, 172);
+    font-size: 15px;
+}
+
+.project h2 {
+    font-size: 17px;
+}
+
+.project-btn {
+    padding: 10px 20px;
+    margin: 1rem;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #ff4500;
+    border: none;
+    border-radius: 5px;
+}
+@media screen and (max-width:450px) {
+    .project-btn {
+        padding: 7px 17px;
+        font-size: 12px;
+    }
+
+    .project-container {
+        margin: 0;
+    }
+}

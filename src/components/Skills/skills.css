@@ -1,15 +1,14 @@
-
 #skills{
     margin: 0 auto;
     overflow: hidden;
     width: 100%;
-    max-width: 70rem;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: -100vh; 
+
 }
 
 .skillsHeading {
@@ -24,14 +23,13 @@
     color: grey;
 }
 .skillBars {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin: 1.5rem;
-    width: 90%;
-    max-width: 50rem;
-    text-align: left;
 }
 .skillBar {
-    display: flex;
     background: rgb(30, 30, 30);
+    width: 150px;
     border-radius: 1rem;
     margin: 1rem;
     padding: 1.5rem;
@@ -39,8 +37,7 @@
 
 .skillImg {
     object-fit: cover;
-    width: 5rem;
-    height: 5rem;
+    height: 3rem;
 }
 
 .skillText {
@@ -64,3 +61,9 @@
     transform: translateY(0);
   }
   
+  @media screen and (max-width:450px) {
+    .skillBars {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+  }

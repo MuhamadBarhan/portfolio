@@ -1,5 +1,4 @@
 #intro {
-
     margin: 0 auto;
     width: 100vw;
     max-width: 70rem;
@@ -30,11 +29,11 @@
 .hello {
     font-size: 1rem;
     font-weight: 700;
-    color: yellow;
+    color: var(--sec-color);
 }
 
 .introName {
-    color: yellow;
+    color: var(--sec-color);
 }
 
 .introTitle {
@@ -58,6 +57,32 @@
     border-radius: 2rem;
     border: none;
 }
+
+.contact-container {
+    display: flex;
+    margin: 1rem;
+}
+
+.contact-icon {
+    background-color: #ff4500;
+    width: 50px;
+    height: 50px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.fa-icon {
+    all: unset;
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
+
 
 @media screen and (max-width:370px) {
     .introContent {

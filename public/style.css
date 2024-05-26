@@ -7,8 +7,13 @@
     font-family: 'Poppins',sans-serif;
 }
 
+:root {
+    --main-color:rgb(10, 10, 10);
+    --sec-color:#FFD700;
+}
+
 body {
-    background: rgb(10, 10, 10);
+    background: var(--main-color) ;
     color: white;
     overflow: hidden;
     overflow-y: scroll;

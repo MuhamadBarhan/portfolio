@@ -14,7 +14,7 @@ const Navbar = () => {
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Home</Link>
         <Link activeClass='active' to='aboutSection' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">About</Link>
         <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Skills</Link>
-        <Link className="desktopMenuListItem">Clients</Link>
+        <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Projects</Link>
       </div>
       <button className="desktopMenuBtn" onClick={() => {
         document.getElementById('contact').scrollIntoView({ behaviour: 'smooth' });
@@ -27,7 +27,7 @@ const Navbar = () => {
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="ListItem" onClick={()=>{setShowMenu(false)}}>Home</Link>
         <Link activeClass='active' to='aboutSection' spy={true} smooth={true} offset={-100} duration={500} className="ListItem" onClick={()=>{setShowMenu(false)}}>About</Link>
         <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} className="ListItem" onClick={()=>{setShowMenu(false)}}>Skills</Link>
-        <Link className="ListItem">Clients</Link>
+        <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500} className="ListItem" onClick={()=>{setShowMenu(false)}}>Projects</Link>
         <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} className="ListItem" onClick={()=>{setShowMenu(false)}}>Contact</Link>
       </div>
     </nav>

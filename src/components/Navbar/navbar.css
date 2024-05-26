@@ -10,7 +10,7 @@
     position: sticky;
     z-index: 3;
     top: 0;
-    background-color: rgb(10, 10, 10);
+    background-color: var(--main-color);
 }
 
 .logo {
@@ -29,8 +29,8 @@
 }
 
 .desktopMenuListItem:hover {
-    border-bottom: 3px solid yellow;
-    color: yellow;
+    border-bottom: 3px solid var(--sec-color);
+    color: var(--sec-color);
     padding-bottom: 5px;
 }
 
@@ -43,9 +43,9 @@
 }
 
 .active {
-    color: yellow;
+    color: var(--sec-color);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid var(--sec-color);
 }
 
 .navMenu {
@@ -55,7 +55,7 @@
     flex-direction: column;
     top: 4rem;
     right: 2rem;
-    background: rgb(10, 10, 10);
+    background: var(--main-color);
     border-radius: 0.5rem;
 }
 .ListItem {
@@ -64,8 +64,8 @@
 }
 
 .ListItem:hover {
-    color: yellow;
-    border-bottom: 3px solid yellow;
+    color: var(--sec-color);
+    border-bottom: 3px solid var(--sec-color);
     
 }
 .mobMenu {

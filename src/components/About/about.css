@@ -1,12 +1,9 @@
 #aboutSection {
     margin: 0 auto;
     overflow: hidden;
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     max-width: 70rem;
-    display: flex;
-    flex-direction: column;
-
 }
 
 .scroll-container {
@@ -25,7 +22,6 @@
     font-size: 2.5rem;
     font-weight: bolder;
     margin-left: 2rem;
-
 }
 
 .aboutDesc {
