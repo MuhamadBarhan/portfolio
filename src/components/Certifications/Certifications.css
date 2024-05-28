@@ -1,0 +1,14 @@
+#certifications {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.cert-heading {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}

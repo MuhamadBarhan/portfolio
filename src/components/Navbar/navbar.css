@@ -1,12 +1,11 @@
 .navbar {
     margin: 0 auto;
-    padding: 1rem;
-    height: 5rem;
+    padding: 1rem 5rem;
+    height: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 70rem;
     position: sticky;
     z-index: 3;
     top: 0;
