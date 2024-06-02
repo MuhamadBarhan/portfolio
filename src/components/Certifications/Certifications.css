@@ -1,14 +1,31 @@
 #certifications {
+    margin: 4rem auto;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh;
 }
 
 .cert-heading {
     font-size: 2.5rem;
     font-weight: bolder;
+}
+
+.certificates {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.certificate {
+    width: 400px;
+    height: 250px;
+    margin: 1.5rem;
+}
+
+@media screen and (max-width:450px) {
+    .certificates {
+        grid-template-columns: auto;
+    }
 }
