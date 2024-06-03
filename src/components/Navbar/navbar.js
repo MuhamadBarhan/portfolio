@@ -24,7 +24,7 @@ const Navbar = () => {
       }}>Contact Me</button>
 
       <img src={Menu} alt='menu' className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
-      <div className="navMenu" style={{display:showMenu? 'flex':'none'}}>
+      <div className={`navMenu ${showMenu ? 'show' : ''}`}>
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="ListItem" onClick={()=>{setShowMenu(false)}}>Home</Link>
         <Link activeClass='active' to='aboutSection' spy={true} smooth={true} offset={-100} duration={500} className="ListItem" onClick={()=>{setShowMenu(false)}}>About</Link>
         <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} className="ListItem" onClick={()=>{setShowMenu(false)}}>Skills</Link>
