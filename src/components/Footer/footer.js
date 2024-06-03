@@ -4,7 +4,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer className="footer">
-      Copyright &#169; 2023 All rights reserved
+      Copyright &#169; 2024 All rights reserved | Muhamad Barhan H
     </footer>
   )
 }

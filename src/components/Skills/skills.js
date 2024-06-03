@@ -49,6 +49,14 @@ const Skills = () => {
                     <p>MongoDB</p>
                 </div>
                 <div className="skillBar">
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-python-2-226051.png?f=webp&w=256" alt='UI' className='skillImg' />
+                    <p>Python</p>
+                </div>
+                <div className="skillBar">
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-java-59-1174952.png?f=webp&w=256" alt='UI' className='skillImg' />
+                    <p>Java</p>
+                </div>
+                <div className="skillBar">
                     <img src="https://avatars.githubusercontent.com/u/69558822?s=200&v=4" alt='UI' className='skillImg' />
                     <p>Spring Boot</p>
                 </div>
@@ -59,14 +67,6 @@ const Skills = () => {
                 <div className="skillBar">
                     <img src="https://assets-global.website-files.com/61d1b6e84887f53fef1dcdf2/631b45e07d98cfb364e5951f_github-white.png" alt='UI' className='skillImg' />
                     <p>GitHub</p>
-                </div>
-                <div className="skillBar">
-                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-java-59-1174952.png?f=webp&w=256" alt='UI' className='skillImg' />
-                    <p>Java</p>
-                </div>
-                <div className="skillBar">
-                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-python-2-226051.png?f=webp&w=256" alt='UI' className='skillImg' />
-                    <p>Python</p>
                 </div>
                 <div className="skillBar">
                     <img src="https://cdn.iconscout.com/icon/free/png-512/free-firebase-3521427-2944871.png?f=webp&w=256" alt='UI' className='skillImg' />
