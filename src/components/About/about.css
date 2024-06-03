@@ -1,6 +1,6 @@
 #aboutSection {
     margin: 0 auto;
-    padding-top: 3rem;
+    padding: 3rem 5rem;
     height: 100vh;
     width: 100%;
     background-color: rgb(43, 43, 43);
@@ -61,6 +61,7 @@
     border-radius: 2rem;
     border: none;
     margin: 2rem;
+    cursor: pointer;
 }
 
 @media screen and (max-width:550px) {
@@ -81,6 +82,7 @@
 
     #aboutSection {
         height: 60vh;
+        padding: 3rem 0;
     }
 
     .aboutDetails p {
