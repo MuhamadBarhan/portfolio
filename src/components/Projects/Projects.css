@@ -11,6 +11,7 @@
 .projects-heading {
     font-size: 2.5rem;
     font-weight: bolder;
+    border-bottom: 2px solid orange;
 }
 
 .project-container {
