@@ -1,12 +1,13 @@
 #contact {
     margin: 0 auto;
     width: 100vw;
-    max-width: 70rem;
+ 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #272f24;
 }
 
 .contactHeading {
