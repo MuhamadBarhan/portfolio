@@ -64,6 +64,11 @@
     cursor: pointer;
 }
 
+.cvBtn a {
+    text-decoration: none;
+    color: white;
+}
+
 @media screen and (max-width:550px) {
     .aboutForm {
         margin-left: 1.5rem;

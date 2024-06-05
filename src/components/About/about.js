@@ -29,7 +29,7 @@ const About = () => {
                 </p>
                 
             </div>
-            <a href='https://drive.google.com/file/d/1FxDWwFdVYKCgTGqPfiBXv5EWG14Hra3e/view?usp=drive_link'><button className="cvBtn">Resume</button></a>
+            <button className="cvBtn"><a href='https://drive.google.com/file/d/1FxDWwFdVYKCgTGqPfiBXv5EWG14Hra3e/view?usp=drive_link'>Resume</a></button>
         </section>
     )
 }
