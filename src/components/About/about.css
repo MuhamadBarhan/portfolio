@@ -151,6 +151,10 @@
         font-size: 15px;
       }
 
+      .container {
+        margin-top: 2rem;
+      }
+
 }
 
 @media screen and (max-width:370px) {
