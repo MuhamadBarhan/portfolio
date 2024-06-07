@@ -20,7 +20,7 @@ const Intro = () => {
                         sequence={[
                             'Full Stack Developer', 1000,
                             'UI/UX Designer', 1000,
-                            'Self Learner', 1000,
+                            'Self Learner!', 1000,
                         ]}
                         wrapper="span"
                         cursor={true}
