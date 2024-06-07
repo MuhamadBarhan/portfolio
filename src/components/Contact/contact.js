@@ -33,6 +33,9 @@ const Contact = () => {
     <section id='contact' ref={ref} className={`scroll-container ${inView ? 'animate' : ''}`}>
       <span className="contactHeading">Let's Connect</span>
       <span className="contactDesc">Connect with each other for collaborations</span>
+      <div className="contact-ref">
+        
+      </div>
       <form className="contactForm" ref={form} onSubmit={sendEmail}>
         <input type="text" id="name" placeholder='Your Name' name='from_name'/>
         <input type="email" id="email" placeholder='Your Email' name='from_email'/>

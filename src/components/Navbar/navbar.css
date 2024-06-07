@@ -80,7 +80,9 @@
 .mobMenu {
     object-fit: cover;
     height: 1.8rem;
+    margin: 0.5rem;
     display: none;
+    color: var(--sec-color);
 }
 
 @media screen and (max-width:450px) {
