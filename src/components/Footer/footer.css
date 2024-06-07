@@ -10,6 +10,11 @@
     text-align: center;
 }
 
+.footer p a {
+    color: var(--sec-color);
+    cursor: pointer;
+}
+
 .footer-container {
     display: flex;
     justify-content: center;
