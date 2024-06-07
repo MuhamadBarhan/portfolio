@@ -2,7 +2,7 @@
     margin: 0 auto;
     padding: 3rem;
     width: 100%;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(40, 40, 40);
 }
 
 .about-container {
@@ -74,11 +74,10 @@
 }
 
 /* Education and Experience Tabs */
-.container {
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
+  .container {
+    background-color: rgb(26, 26, 26);
+    width: 100%;
   }
-  
   .tabs {
     display: flex;
     justify-content: center;
@@ -103,6 +102,9 @@
     padding-bottom: 0.5rem;
     border-bottom: 3px solid var(--sec-color);
   }
+  .content {
+    padding: 1rem 2rem;
+}
   
   .tab-content h4 {
     color: grey;
@@ -133,12 +135,21 @@
     }
 
     #aboutSection {
-        padding: 3rem 0;
+        padding: 0;
+        padding-top: 3rem;
     }
 
     .aboutDetails p {
         font-size: 0.8rem;
     }
+
+    .tab-content h3 {
+      font-size: 16px;
+    }
+  
+    .tab-content h4 {
+        font-size: 15px;
+      }
 
 }
 
@@ -149,14 +160,21 @@
         font-size: 0.7rem;
     }
 
-    #aboutSection {
-        height: 60vh;
-    }
-
     .aboutDetails p {
         font-size: 0.6rem;
     }
 
+    .tab-content h3 {
+        font-size: 14px;
+      }
+    
+      .tab-content h4 {
+          font-size: 13px;
+        }
+
+        .content {
+            padding: 1rem 2rem;
+        }
 
 }
 

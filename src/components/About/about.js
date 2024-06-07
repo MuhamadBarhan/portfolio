@@ -47,7 +47,7 @@ const About = () => {
                         ) : (
                             <div className="tab-content">
                                 <ul>
-                                    <li><h3>Web Developement(Summer Intern)</h3></li>
+                                    <li><h3>Web Developement</h3></li>
                                     <h4>White Track Technologies</h4><br></br>
                                     <li><h3>Android Application Development</h3></li>
                                     <h4>Shristi Innovative</h4>
