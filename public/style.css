@@ -9,8 +9,8 @@
 
 :root {
     --main-color:rgb(10, 10, 10);
-    --sec-color:#FFD700;
-    --ter-color: #fb641b;
+    --sec-color:aqua;
+    --ter-color: rgb(179, 44, 179);
 }
 
 body {
