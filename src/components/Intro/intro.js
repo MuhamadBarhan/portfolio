@@ -19,8 +19,8 @@ const Intro = () => {
                     <TypeAnimation
                         sequence={[
                             'Full Stack Developer', 2000,
-                            'MERN Stack', 2000,
                             'UI/UX Designer', 2000,
+                            'Self Learner', 2000,
                         ]}
                         wrapper="span"
                         cursor={true}
