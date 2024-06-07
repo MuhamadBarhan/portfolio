@@ -75,5 +75,9 @@ input {
     .contactDesc {
         font-size: 14px;
     }
+
+    .contactHeading {
+        font-size: 2rem;
+    }
     
 }

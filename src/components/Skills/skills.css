@@ -64,6 +64,10 @@
     .skillBars {
         grid-template-columns: 1fr 1fr;
     }
+
+    .skillsHeading {
+        font-size: 2rem;
+    }
     
   }
 

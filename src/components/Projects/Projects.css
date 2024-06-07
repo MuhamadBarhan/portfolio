@@ -59,5 +59,9 @@
     .project-container {
         margin: 0;
     }
+
+    .projects-heading {
+        font-size: 2rem;
+    }
     
 }

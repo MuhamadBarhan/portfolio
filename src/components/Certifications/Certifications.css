@@ -29,4 +29,8 @@
     .certificates {
         grid-template-columns: auto;
     }
+
+    .cert-heading {
+        font-size: 2rem;
+    }
 }
