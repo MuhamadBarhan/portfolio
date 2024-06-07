@@ -11,9 +11,10 @@ const About = () => {
     });
     return (
         <section id='aboutSection' ref={ref} className={`scroll-container ${inView ? 'animate' : ''}`}>
+        <div className="about-container">
+            <div className="left-co">
             <span className="aboutHeading">About Me</span>
             <p className="aboutDesc">Skilled and passionate person</p>
-            <div className="about-container">
                 <div className="aboutDetails">
                     <p className="aboutForm">
                         <span>Name:</span>
@@ -30,6 +31,7 @@ const About = () => {
                         <span>October 7,2002</span>
                     </p> <br></br>
                     <button className="cvBtn"><a href='https://drive.google.com/file/d/1FxDWwFdVYKCgTGqPfiBXv5EWG14Hra3e/view?usp=drive_link'>Resume</a></button>
+                </div>
                 </div>
                 <div className="container">
                     <div className="tabs">
