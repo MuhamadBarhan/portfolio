@@ -2,14 +2,15 @@ import React, { useState } from 'react'
 import './navbar.css'
 import { Link } from 'react-scroll'
 import Logo from '../../assets/logo.png'
-import Menu from '../../assets/menu.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBarsStaggered } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
 
   const [showMenu,setShowMenu]=useState(false);
   return (
     <nav className="navbar">
-      <img src={Logo} alt='Logo' className='logo' />
+      {/* <img src={Logo} alt='Logo' className='logo' /> */}
       <div className="desktopMenu">
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Home</Link>
         <Link activeClass='active' to='aboutSection' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">About</Link>
@@ -23,7 +24,9 @@ const Navbar = () => {
         window.scrollBy(0,offset)
       }}>Contact Me</button>
 
-      <img src={Menu} alt='menu' className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
+      
+
+      <FontAwesomeIcon icon={faBarsStaggered} className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
       <div className={`navMenu ${showMenu ? 'show' : ''}`}>
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="ListItem" onClick={()=>{setShowMenu(false)}}>Home</Link>
         <Link activeClass='active' to='aboutSection' spy={true} smooth={true} offset={-100} duration={500} className="ListItem" onClick={()=>{setShowMenu(false)}}>About</Link>
