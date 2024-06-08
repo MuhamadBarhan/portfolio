@@ -17,9 +17,7 @@
 
 .footer-container {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 7rem;
+    gap: 6rem;
 }
 
 .footer-container h3 {
@@ -44,4 +42,14 @@
     flex-direction: column;
     gap: 0.5rem;
     width: 70rem;
+}
+
+@media screen and (max-width:450px) {
+    .footer-container {
+        flex-wrap: wrap;
+    }
+    
+    .footer {
+        padding: 2rem;
+    }
 }

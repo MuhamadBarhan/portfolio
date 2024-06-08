@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 import { Link } from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCaretRight, faEnvelope,faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faAnglesRight, faEnvelope,faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
@@ -15,21 +15,21 @@ const Footer = () => {
         </div>
         <div className="quick-links">
           <h3>Quick links</h3>
-          <Link to='intro' spy={true} sm offset={-100} duration={500} className="quick-link"><FontAwesomeIcon icon={faCaretRight}/> Home</Link>
-          <Link to='aboutSection' smooth={true} offset={-100} duration={500} className="quick-link"><FontAwesomeIcon icon={faCaretRight}/> About</Link>
-          <Link to='skills' smooth={true} offset={-100} duration={500} className="quick-link"><FontAwesomeIcon icon={faCaretRight}/> Skills</Link>
-          <Link to='projects' smooth={true} offset={-100} duration={500} className="quick-link"><FontAwesomeIcon icon={faCaretRight}/> Projects</Link>
-          <Link to='certifications' smooth={true} offset={-100} duration={500} className="quick-link"><FontAwesomeIcon icon={faCaretRight}/> Certifications</Link>
-          <Link to='contact' smooth={true} offset={-100} duration={500} className="quick-link"><FontAwesomeIcon icon={faCaretRight}/> Contact</Link>
+          <Link to='intro' spy={true} sm offset={-100} duration={500} className="quick-link"><FontAwesomeIcon icon={faAnglesRight}/> Home</Link>
+          <Link to='aboutSection' smooth={true} offset={-100} duration={500} className="quick-link"><FontAwesomeIcon icon={faAnglesRight}/> About</Link>
+          <Link to='skills' smooth={true} offset={-100} duration={500} className="quick-link"><FontAwesomeIcon icon={faAnglesRight}/> Skills</Link>
+          <Link to='projects' smooth={true} offset={-100} duration={500} className="quick-link"><FontAwesomeIcon icon={faAnglesRight}/> Projects</Link>
+          <Link to='certifications' smooth={true} offset={-100} duration={500} className="quick-link"><FontAwesomeIcon icon={faAnglesRight}/> Certifications</Link>
+          <Link to='contact' smooth={true} offset={-100} duration={500} className="quick-link"><FontAwesomeIcon icon={faAnglesRight}/> Contact</Link>
         </div>
         <div className="contact-links">
           <h3>Contact</h3>
-          <span><FontAwesomeIcon icon={faPhone} shake/> 9488621302</span>
-          <span><FontAwesomeIcon icon={faLinkedin} shake/> Muhamad Barhan H</span>
-          <span><FontAwesomeIcon icon={faEnvelope} shake/> muhamadbarhan02@gmail.com</span>
+          <span><FontAwesomeIcon icon={faPhone}/> 9488621302</span>
+          <span><FontAwesomeIcon icon={faLinkedin}/> Muhamad Barhan H</span>
+          <span><FontAwesomeIcon icon={faEnvelope}/> muhamadbarhan02@gmail.com</span>
         </div>
       </div>
-      <p>Copyright &#169; 2024 All rights reserved | <a href="https://www.linkedin.com/in/muhamad-barhan-h/">Muhamad Barhan H</a></p>
+      <p>Copyright &#169; 2024 All rights reserved | Designed by <a href="https://www.linkedin.com/in/muhamad-barhan-h/">Muhamad Barhan</a></p>
     </footer>
   )
 }
