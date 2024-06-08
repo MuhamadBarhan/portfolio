@@ -2,7 +2,7 @@
     margin: 0 auto;
     padding: 3rem 5rem;
     width: 100%;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(26, 26, 26);
 }
 
 .about-container {
@@ -76,7 +76,7 @@
 /* Education and Experience Tabs */
   .container {
     background-color: rgb(26, 26, 26);
-    margin:auto;
+    margin-left: 5rem;
   }
   .tabs {
     display: flex;
