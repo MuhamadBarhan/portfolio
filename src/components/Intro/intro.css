@@ -1,22 +1,22 @@
 #intro {
     margin: 0 auto;
-    width: 100vw;
-    max-width: 70rem;
+    width: 100%;
     display: flex;
     height: 100vh;
-
-
+    background-image: url('../../assets/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .introContent {
-
     padding: 1.5rem;
+    margin: 0 5rem;
     font-size: 3rem;
     font-weight: 800;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    opacity: 0;
     transform: translateY(30px);
     transition: opacity 0.8s, transform 0.8s;
 }
@@ -83,13 +83,21 @@
 }
 
 
-
 @media screen and (max-width:370px) {
     .introContent {
         font-size: 2.5rem;
+        margin: 0;
+
     }
 
     .introTitle {
         font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .introContent {
+        margin: 0;
+
     }
 }

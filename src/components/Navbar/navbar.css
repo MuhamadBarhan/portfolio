@@ -9,7 +9,8 @@
     position: sticky;
     z-index: 3;
     top: 0;
-    background-color: var(--main-color);
+    background-image: url('../../assets/bg.jpg');
+    background-position-x: center;
 }
 
 .logo {
@@ -100,5 +101,6 @@
 
     .navbar {
         padding: 1rem;
+        background-position-x: center;
     }
 }
