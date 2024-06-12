@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import './contact.css'
 import { useInView } from 'react-intersection-observer';
 import emailjs from '@emailjs/browser';
@@ -10,9 +10,11 @@ const Contact = () => {
   });
 
   const form = useRef();
+  const [loading, setLoading] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setLoading(true);
 
     emailjs
       .sendForm('service_tjjbynz', 'template_9zviq7p', form.current, {
@@ -21,6 +23,7 @@ const Contact = () => {
       .then(
         () => {
           console.log('SUCCESS!');
+          setLoading(false);
           toast.success('Message sent successfully!');
         },
         (error) => {
@@ -32,16 +35,18 @@ const Contact = () => {
   return (
     <section id='contact' ref={ref} className={`scroll-container ${inView ? 'animate' : ''}`}>
       <span className="contactHeading">Let's Connect</span>
-      <span className="contactDesc">Connect with each other for collaborations</span>
+      <span className="contactDesc">Fill out the details</span>
       <div className="contact-ref">
-        
+
       </div>
-      <form className="contactForm" ref={form} onSubmit={sendEmail}>
-        <input type="text" id="name" placeholder='Your Name' name='from_name' required/>
-        <input type="email" id="email" placeholder='Your Email' name='from_email' required/>
-        <textarea id="message" name="message" placeholder='Your Message' rows="5" required/>
-        <button type="submit" className='contactBtn'>Submit</button>
-        <div><Toaster/></div>
+      <form className="contactForm" ref={form} onSubmit={sendEmail} >
+        <input type="text" id="name" placeholder='Your Name' name='from_name' required />
+        <input type="email" id="email" placeholder='Your Email' name='from_email' required />
+        <textarea id="message" name="message" placeholder='Your Message' rows="5" required />
+        <button type="submit" className='contactBtn' disabled={loading}>
+          {loading ? <span className="spinner"></span> : 'Submit'}
+          {loading && 'Submitting...'}</button>
+        <div><Toaster /></div>
       </form>
     </section>
   )

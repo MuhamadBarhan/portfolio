@@ -29,7 +29,7 @@ const Footer = () => {
           <span><FontAwesomeIcon icon={faEnvelope}/> muhamadbarhan02@gmail.com</span>
         </div>
       </div>
-      <p>Copyright &#169; 2024 All rights reserved | Designed by <a href="https://www.linkedin.com/in/muhamad-barhan-h/">Muhamad Barhan</a></p>
+      <p>Designed by <a href="https://www.linkedin.com/in/muhamad-barhan-h/">Muhamad Barhan</a></p>
     </footer>
   )
 }
