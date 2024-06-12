@@ -3,7 +3,7 @@ import './navbar.css'
 import { Link } from 'react-scroll'
 // import Logo from '../../assets/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBarsStaggered } from '@fortawesome/free-solid-svg-icons'
+import { faBarsStaggered, faCode } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
 
@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       {/* <img src={Logo} alt='Logo' className='logo' /> */}
-      <span className="logo"><span className='logo-F'>M</span>HD</span>
+      <span className="logo"><span className='logo-F'>M</span>HD <FontAwesomeIcon icon={faCode}/></span>
       <div className="desktopMenu">
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Home</Link>
         <Link activeClass='active' to='aboutSection' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">About</Link>
