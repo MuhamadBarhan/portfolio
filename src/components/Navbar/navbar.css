@@ -15,7 +15,8 @@
 
 .logo {
     font-size: 18px;
-    padding-top: 7px;
+    font-weight: 800;
+    margin: 0.5rem;
 }
 
 .logo-F {
