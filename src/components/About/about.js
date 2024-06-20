@@ -18,7 +18,7 @@ const About = () => {
 
             <p style={{marginLeft:'2rem',fontWeight:'200',fontFamily:'sans-serif',margin:'2rem',color:'#f6f6f6',fontSize:'16px',lineHeight:'2rem'}}>Aspiring Full Stack Developer with a strong foundation in web technologies and a passion for creating dynamic and responsive applications. Currently pursuing a B.Tech in Information Technology at University College of Engineering, Nagercoil. I specialize in the MERN stack and have hands-on experience with projects</p>
                 <div className="aboutDetails">
-                    <button className="cvBtn"><a href='https://drive.google.com/file/d/1FxDWwFdVYKCgTGqPfiBXv5EWG14Hra3e/view?usp=drive_link'>Resume</a></button>
+                    <button className="cvBtn"><a href='https://drive.google.com/file/d/1HdfoZAhShi7mmGDvseMvdjBosWcCZrGc/view?usp=drive_link'>Resume</a></button>
                 </div>
                 </div>
                 <div className="container">
