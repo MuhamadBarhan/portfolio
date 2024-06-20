@@ -10,6 +10,10 @@
     flex-wrap: wrap;
 }
 
+.left-co {
+    width: 500px;
+}
+
 .scroll-container {
     opacity: 0;
     transform: translateY(50px);
