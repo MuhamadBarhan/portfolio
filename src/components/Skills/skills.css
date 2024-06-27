@@ -1,4 +1,4 @@
-#skills{
+#skills {
     margin: 2rem auto;
     overflow: hidden;
     width: 100%;
@@ -7,7 +7,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
 
 .skillsHeading {
@@ -21,14 +20,26 @@
     letter-spacing: 1px;
     color: grey;
 }
+
 .skillBars {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin: 1.5rem;
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out, opacity 0.5s ease-out;
+    opacity: 0;
 }
+
+.skillBars.open {
+    height: auto;
+    opacity: 1;
+}
+
+
 .skillBar {
     background: rgb(30, 30, 30);
-    width: 180px;
+    width: 160px;
     border-radius: 1rem;
     margin: 0.5rem;
     padding: 1.5rem;
@@ -42,10 +53,17 @@
 .skillText {
     display: inline-block;
     padding: 0.4rem 1.5rem;
-   
 }
+
 .skillDesc {
     margin: 0.5rem 0;
+}
+
+.skillCategory {
+    background-color: #242424;
+    width: 90vw;
+    margin: 1rem;
+    border-radius: 10px;
 }
 
 /* ScrollComponent.css */
@@ -53,14 +71,21 @@
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.8s, transform 0.8s;
-  }
+}
   
-  .scroll-container.animate {
+.scroll-container.animate {
     opacity: 1;
     transform: translateY(0);
-  }
-  
-  @media screen and (max-width:450px) {
+}
+
+.categoryHeading {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 450px) {
     .skillBars {
         grid-template-columns: 1fr 1fr;
     }
@@ -68,15 +93,14 @@
     .skillsHeading {
         font-size: 2rem;
     }
-    
-  }
-
-  @media screen and (max-width:370px) {
+}
+  
+@media screen and (max-width: 370px) {
     .skillBar {
         width: 160px;
     }
+
     .skillsDesc {
         font-size: 14px;
     }
-    
-  }
+}
