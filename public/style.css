@@ -8,9 +8,9 @@
 }
 
 :root {
-    --main-color:rgb(43, 43, 43);
-    --sec-color:#ffc300;
-    --ter-color: #fb641b;
+    --main-color:#282c34;
+    --sec-color:#61dafb;
+    --ter-color: #ad00c4;
 }
 
 body {
