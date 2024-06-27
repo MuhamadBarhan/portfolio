@@ -16,8 +16,8 @@ const Skills = () => {
         <section id="skills" ref={ref} className={`scroll-container ${inView ? 'animate' : ''}`}>
             <span className="skillsHeading">Skills</span>
             <span className="skillsDesc">I am a skilled person who loves to code</span>
-            <div className="skillCategory">
-                <div className="categoryHeading" onClick={() => toggleSection('frontend')}>
+            <div className="skillCategory" onClick={() => toggleSection('frontend')}>
+                <div className="categoryHeading" >
                     <p>Frontend</p><p><FontAwesomeIcon icon={faSortDown} style={{fontSize:'25px',margin:'0'}}/></p>
                 </div>
                 <div className={`skillBars ${openSection === 'frontend' ? 'open' : ''}`}>
@@ -44,8 +44,8 @@ const Skills = () => {
                 </div>
             </div>
             
-            <div className="skillCategory">
-                <div className="categoryHeading" onClick={() => toggleSection('backend')}>
+            <div className="skillCategory" onClick={() => toggleSection('backend')}>
+                <div className="categoryHeading" >
                 <p>Backend</p><span><FontAwesomeIcon icon={faSortDown} style={{fontSize:'25px',margin:'0'}}/></span>
                 </div>
                 <div className={`skillBars ${openSection === 'backend' ? 'open' : ''}`}>
@@ -84,8 +84,8 @@ const Skills = () => {
                 </div>
             </div>
             
-            <div className="skillCategory">
-                <div className="categoryHeading" onClick={() => toggleSection('other')}>
+            <div className="skillCategory"  onClick={() => toggleSection('other')}>
+                <div className="categoryHeading">
                 <p>Other Tools</p><span><FontAwesomeIcon icon={faSortDown} style={{fontSize:'25px',margin:'0'}}/></span>
                 </div>
                 <div className={`skillBars ${openSection === 'other' ? 'open' : ''}`}>

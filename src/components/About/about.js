@@ -40,8 +40,8 @@ const About = () => {
                             <div className="tab-content">
                                 <div className="tab-card">
                                     <p className='t1'>May 2024</p>
-                                    <p className='t2'>Web Developement</p>
-                                    <p className='t3'>WHITE TRACK ECHNOLOGIES</p>
+                                    <p className='t2'>Web Development</p>
+                                    <p className='t3'>WHITE TRACK TECHNOLOGIES</p>
                                 </div>
                                 <div className="tab-card">
                                     <p className='t1'>July 2023</p>
