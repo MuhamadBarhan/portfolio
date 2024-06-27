@@ -22,23 +22,24 @@
 }
 
 .skillBars {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin: 1.5rem;
     height: 0px;
+    width: 90vw;
     overflow: hidden;
     transition: height 0.5s ease-in-out, opacity 0.5s ease-out;
     opacity: 0;
 }
 
 .skillBars.open {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 1.5rem;
     height: auto;
     opacity: 1;
 }
 
 
 .skillBar {
-    background: rgb(30, 30, 30);
+    background: var(--main-color);
     width: 160px;
     border-radius: 1rem;
     margin: 0.5rem;
@@ -50,18 +51,12 @@
     height: 3rem;
 }
 
-.skillText {
-    display: inline-block;
-    padding: 0.4rem 1.5rem;
-}
-
 .skillDesc {
     margin: 0.5rem 0;
 }
 
 .skillCategory {
-    background-color: #242424;
-    width: 90vw;
+    background-color: rgb(54, 54, 54);
     margin: 1rem;
     border-radius: 10px;
 }
@@ -83,10 +78,14 @@
     font-weight: bold;
     cursor: pointer;
     margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
 }
 
 @media screen and (max-width: 450px) {
-    .skillBars {
+    .skillBars.open {
         grid-template-columns: 1fr 1fr;
     }
 

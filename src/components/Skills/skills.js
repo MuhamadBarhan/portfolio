@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './skills.css';
 import { useInView } from 'react-intersection-observer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSortDown } from '@fortawesome/free-solid-svg-icons';
 
 const Skills = () => {
     const [ref, inView] = useInView({ triggerOnce: false });
@@ -14,10 +16,9 @@ const Skills = () => {
         <section id="skills" ref={ref} className={`scroll-container ${inView ? 'animate' : ''}`}>
             <span className="skillsHeading">Skills</span>
             <span className="skillsDesc">I am a skilled person who loves to code</span>
-            
             <div className="skillCategory">
                 <div className="categoryHeading" onClick={() => toggleSection('frontend')}>
-                    Frontend
+                    <p>Frontend</p><p><FontAwesomeIcon icon={faSortDown} style={{fontSize:'30px',margin:'0'}}/></p>
                 </div>
                 <div className={`skillBars ${openSection === 'frontend' ? 'open' : ''}`}>
                     <div className="skillBar">
@@ -45,7 +46,7 @@ const Skills = () => {
             
             <div className="skillCategory">
                 <div className="categoryHeading" onClick={() => toggleSection('backend')}>
-                    Backend
+                <p>Backend</p><span><FontAwesomeIcon icon={faSortDown} style={{fontSize:'30px',margin:'0'}}/></span>
                 </div>
                 <div className={`skillBars ${openSection === 'backend' ? 'open' : ''}`}>
                     <div className="skillBar">
@@ -65,6 +66,10 @@ const Skills = () => {
                         <p>MongoDB</p>
                     </div>
                     <div className="skillBar">
+                        <img src="https://cdn.iconscout.com/icon/free/png-512/free-php-28-226043.png?f=webp&w=256" alt='PHP' className='skillImg' />
+                        <p>PHP</p>
+                    </div>
+                    <div className="skillBar">
                         <img src="https://cdn.iconscout.com/icon/free/png-512/free-python-2-226051.png?f=webp&w=256" alt='Python' className='skillImg' />
                         <p>Python</p>
                     </div>
@@ -81,7 +86,7 @@ const Skills = () => {
             
             <div className="skillCategory">
                 <div className="categoryHeading" onClick={() => toggleSection('other')}>
-                    Other Tools
+                <p>Other Tools</p><span><FontAwesomeIcon icon={faSortDown} style={{fontSize:'30px',margin:'0'}}/></span>
                 </div>
                 <div className={`skillBars ${openSection === 'other' ? 'open' : ''}`}>
                     <div className="skillBar">
@@ -95,10 +100,6 @@ const Skills = () => {
                     <div className="skillBar">
                         <img src="https://cdn.iconscout.com/icon/free/png-512/free-firebase-3521427-2944871.png?f=webp&w=256" alt='Firebase' className='skillImg' />
                         <p>Firebase</p>
-                    </div>
-                    <div className="skillBar">
-                        <img src="https://cdn.iconscout.com/icon/free/png-512/free-php-28-226043.png?f=webp&w=256" alt='PHP' className='skillImg' />
-                        <p>PHP</p>
                     </div>
                     <div className="skillBar">
                         <img src="https://cdn.iconscout.com/icon/free/png-512/free-postman-3521648-2945092.png?f=webp&w=256" alt='Postman API' className='skillImg' />

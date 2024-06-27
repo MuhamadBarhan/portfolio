@@ -1,5 +1,7 @@
-import React from 'react'
-import './Projects.css'
+import React from 'react';
+import './Projects.css';
+import movieImg from '../../assets/movie.PNG';
+import ecomImg from '../../assets/ecom.PNG';
 
 const Projects = () => {
   return (
@@ -8,20 +10,34 @@ const Projects = () => {
       <p className='projects-desc'></p>
       <div className="project-container">
         <div className="project">
-          <h2>ECommerce Website-MERN Stack</h2>
-          <p>Designed and developed a dynamic e-commerce website leveraging MongoDB, Express.js, React.js, and Node.js (MERN stack) with Redux for efficient state management and also created an admin panel to efficiently manage products and orders, ensuring seamless product management and efficient operations. Implemented responsive design principles to ensure seamless user experience across devices.</p>
-          <a href='https://mhd-ecommerce.vercel.app/' className='project-btn'>Demo</a>   
-          <a href='https://github.com/MuhamadBarhan/Ecommerce-Website-using-MERN-stack' className='project-btn'>View Code</a>
+          <img src={ecomImg} alt="" />
+          <div className="project-details">
+            <p className='project-title'>ECommerce Website-MERN Stack</p>
+            <p className='project-desc'>jskdj sjjkdjsjkd skjdskdjs dsjdjskd </p>
+            <a href='https://mhd-ecommerce.vercel.app/' className='project-btn'>Demo</a>   
+            <a href='https://github.com/MuhamadBarhan/Ecommerce-Website-using-MERN-stack' className='project-btn'>View Code</a>
+          </div>
         </div>
         <div className="project">
-          <h2>Trash Management - Admin Panel</h2>
-          <p>Developed a dynamic admin panel utilizing HTML, CSS, and JavaScript, integrated with Firebase to manage data efficiently. Implemented features in admin panel to display and download data in Excel format for enhanced analysis and reporting.</p>
-          <a href='' className='project-btn'>Demo</a>   
-          <a href='' className='project-btn'>View Code</a>
+          <img src={movieImg} alt="" />
+          <div className="project-details">
+            <p className='project-title'>Movie Ticket Booking</p>
+            <p className='project-desc'>jskdj sjjkdjsjkd skjdskdjs dsjdjskd </p>
+            <a href='https://mhd-ecommerce.vercel.app/' className='project-btn'>Demo</a>   
+            <a href='https://github.com/MuhamadBarhan/Ecommerce-Website-using-MERN-stack' className='project-btn'>View Code</a>
+          </div>
+        </div>
+        <div className="project">
+          <div className="project-details">
+            <p className='project-title'>Trash Management - Admin Panel</p>
+            <p className='project-desc'>jskdj sjjkdjsjkd skjdskdjs dsjdjskd </p>
+            <a href='' className='project-btn'>Demo</a>   
+            <a href='' className='project-btn'>View Code</a>
+          </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
