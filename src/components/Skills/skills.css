@@ -42,14 +42,14 @@
     width: 160px;
     border-radius: 0.5rem;
     margin: 0.5rem;
-    padding: 1rem 1.5rem;
+    padding:1rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .skillBar p {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .skillImg {
