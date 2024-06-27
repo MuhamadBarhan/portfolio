@@ -13,7 +13,7 @@ const Projects = () => {
           <img src={ecomImg} alt="" />
           <div className="project-details">
             <p className='project-title'>ECommerce Website-MERN Stack</p>
-            <p className='project-desc'>jskdj sjjkdjsjkd skjdskdjs dsjdjskd </p>
+            <p className='project-desc'>Devloped a dynamic ecommerce website using MERN stack(MongoDB,Express.js,React.js,Node.js)</p>
             <a href='https://mhd-ecommerce.vercel.app/' className='project-btn'>Demo</a>   
             <a href='https://github.com/MuhamadBarhan/Ecommerce-Website-using-MERN-stack' className='project-btn'>View Code</a>
           </div>
@@ -22,7 +22,7 @@ const Projects = () => {
           <img src={movieImg} alt="" />
           <div className="project-details">
             <p className='project-title'>Movie Ticket Booking</p>
-            <p className='project-desc'>jskdj sjjkdjsjkd skjdskdjs dsjdjskd </p>
+            <p className='project-desc'>Developed frontend using react.js and the website is responsive across devices</p>
             <a href='https://mhd-ecommerce.vercel.app/' className='project-btn'>Demo</a>   
             <a href='https://github.com/MuhamadBarhan/Ecommerce-Website-using-MERN-stack' className='project-btn'>View Code</a>
           </div>
@@ -30,7 +30,7 @@ const Projects = () => {
         <div className="project">
           <div className="project-details">
             <p className='project-title'>Trash Management - Admin Panel</p>
-            <p className='project-desc'>jskdj sjjkdjsjkd skjdskdjs dsjdjskd </p>
+            <p className='project-desc'>Developed an admin panel that displays the data from firebase</p>
             <a href='' className='project-btn'>Demo</a>   
             <a href='' className='project-btn'>View Code</a>
           </div>

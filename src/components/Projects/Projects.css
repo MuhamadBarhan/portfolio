@@ -52,7 +52,13 @@
 }
 
 .project-details p {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.project-desc {
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
 }
 
 .project:hover .project-details {
@@ -60,9 +66,9 @@
 }
 
 .project-btn {
-    padding: 10px 20px;
-    margin-right: 10px;
-    font-size: 16px;
+    padding: 8px 18px;
+    margin-right: 2rem;
+    font-size: 14px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;

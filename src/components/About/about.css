@@ -54,14 +54,6 @@
     margin-top: 2rem;
 }
 
-.aboutDetails p span {
-    margin: 0.5rem;
-}
-
-.aboutDetail {
-    color: grey;
-}
-
 .cvBtn {
     background: var(--ter-color);
     color: white;
