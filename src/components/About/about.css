@@ -2,7 +2,6 @@
     margin: 0 auto;
     padding: 3rem 5rem;
     width: 100%;
-    background-color: rgb(26, 26, 26);
 }
 
 .about-container {
@@ -71,7 +70,6 @@
 
 /* Education and Experience Tabs */
   .container {
-    background-color: rgb(26, 26, 26);
     margin-left: 5rem;
   }
   .tabs {
@@ -101,12 +99,31 @@
   .content {
     padding: 1rem 2rem;
 }
-  
-  .tab-content h4 {
-    color: grey;
+
+  .tab-card {
+    background-color: rgb(26, 26, 26);
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin: 1rem;
   }
-  .tab-content h3 {
-    color: white;
+
+  .tab-card p {
+    margin-bottom: 0.5rem;
+  }
+
+  .t1 {
+    color: var(--sec-color);
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  .t2 {
+    font-size: 18px;
+  }
+
+  .t3 {
+    color: gray;
+    font-size: 14px;
   }
 
 
