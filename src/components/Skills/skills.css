@@ -31,7 +31,7 @@
 .skillBars.open {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin: 1.5rem;
+    margin: 1rem;
     height: auto;
     opacity: 1;
 }
@@ -104,7 +104,7 @@
   
 @media screen and (max-width: 370px) {
     .skillBar {
-        width: 160px;
+        width: 150px;
     }
 
     .skillsDesc {
