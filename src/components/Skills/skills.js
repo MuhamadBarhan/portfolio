@@ -18,7 +18,7 @@ const Skills = () => {
             <span className="skillsDesc">I am a skilled person who loves to code</span>
             <div className="skillCategory">
                 <div className="categoryHeading" onClick={() => toggleSection('frontend')}>
-                    <p>Frontend</p><p><FontAwesomeIcon icon={faSortDown} style={{fontSize:'30px',margin:'0'}}/></p>
+                    <p>Frontend</p><p><FontAwesomeIcon icon={faSortDown} style={{fontSize:'25px',margin:'0'}}/></p>
                 </div>
                 <div className={`skillBars ${openSection === 'frontend' ? 'open' : ''}`}>
                     <div className="skillBar">
@@ -46,7 +46,7 @@ const Skills = () => {
             
             <div className="skillCategory">
                 <div className="categoryHeading" onClick={() => toggleSection('backend')}>
-                <p>Backend</p><span><FontAwesomeIcon icon={faSortDown} style={{fontSize:'30px',margin:'0'}}/></span>
+                <p>Backend</p><span><FontAwesomeIcon icon={faSortDown} style={{fontSize:'25px',margin:'0'}}/></span>
                 </div>
                 <div className={`skillBars ${openSection === 'backend' ? 'open' : ''}`}>
                     <div className="skillBar">
@@ -86,7 +86,7 @@ const Skills = () => {
             
             <div className="skillCategory">
                 <div className="categoryHeading" onClick={() => toggleSection('other')}>
-                <p>Other Tools</p><span><FontAwesomeIcon icon={faSortDown} style={{fontSize:'30px',margin:'0'}}/></span>
+                <p>Other Tools</p><span><FontAwesomeIcon icon={faSortDown} style={{fontSize:'25px',margin:'0'}}/></span>
                 </div>
                 <div className={`skillBars ${openSection === 'other' ? 'open' : ''}`}>
                     <div className="skillBar">
