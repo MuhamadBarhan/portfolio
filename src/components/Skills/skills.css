@@ -30,7 +30,7 @@
 
 .skillBars.open {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     margin: 1rem;
     height: auto;
     opacity: 1;
@@ -39,7 +39,6 @@
 
 .skillBar {
     background: var(--main-color);
-
     border-radius: 0.5rem;
     margin: 0.5rem;
     padding:1rem;
@@ -66,7 +65,7 @@
     background-color: rgb(54, 54, 54);
     margin: 1rem;
     border-radius: 10px;
-    width: 90vw;
+    width: 70vw;
 }
 
 /* ScrollComponent.css */
@@ -99,6 +98,10 @@
 
     .skillsHeading {
         font-size: 2rem;
+    }
+
+    .skillCategory {
+        width: 90vw;
     }
 }
   
