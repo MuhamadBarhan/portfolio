@@ -28,7 +28,7 @@
     opacity: 0;
 }
 
-.skillBars.open {
+.skillBars {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     margin: 1rem;
@@ -43,6 +43,7 @@
     margin: 0.5rem;
     padding:1rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -106,10 +107,6 @@
 }
   
 @media screen and (max-width: 370px) {
-    .skillBar {
-        width: 150px;
-    }
-
     .skillsDesc {
         font-size: 14px;
     }

@@ -1,213 +1,191 @@
 #aboutSection {
-    margin: 0 auto;
-    padding: 3rem 5rem;
-    width: 100%;
+  margin: 0 auto;
+  padding: 3rem 5rem;
+  width: 100%;
 }
 
 .about-container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .left-co {
-    width: 500px;
+  width: 500px;
 }
 
 .scroll-container {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 0.8s, transform 0.8s;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s, transform 0.8s;
 }
 
 .scroll-container.animate {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 
 .aboutHeading {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    margin-left: 2rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-left: 2rem;
 }
 
 .aboutDesc {
-    font-size: medium;
-    font-weight: 300;
-    letter-spacing: 1px;
-    color: grey;
-    margin-left: 2rem;
+  font-size: medium;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: grey;
+  margin-left: 2rem;
 
 }
 
-.aboutDetails p {
-    display: inline-grid;
-    font-size: medium;
-    font-weight: 600;
-    letter-spacing: 1px;
 
-}
-
-.aboutForm {
-    margin-left: 2rem;
-    margin-top: 2rem;
+.aboutme {
+  margin-left: 2rem;
+  font-weight: 300;
+  margin: 2rem;
+  color: '#f6f6f6';
+  line-height: 2rem;
 }
 
 .cvBtn {
-    background: var(--ter-color);
-    color: white;
-    padding: 0.75rem 2rem;
-    border-radius: 2rem;
-    border: none;
-    margin: 2rem;
-    cursor: pointer;
+  background: var(--ter-color);
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  border: none;
+  margin: 2rem;
+  cursor: pointer;
 }
 
 .cvBtn a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 /* Education and Experience Tabs */
-  .container {
-    margin-left: 5rem;
-  }
-  .tabs {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .tab {
-    padding: 10px 20px;
-    margin: 1rem;
-    cursor: pointer;
-    border: none;
-    color: white;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .tab:hover {
-    color: var(--sec-color);
-  }
-  
-  .tab.active {
-    color: var(--sec-color);
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid var(--sec-color);
-  }
-  .content {
-    padding: 1.5rem;
+.container {
+  margin-left: 5rem;
 }
 
-  .tab-card {
-    background-color: rgb(26, 26, 26);
-    padding: 1.5rem;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-  }
+.tabs {
+  display: flex;
+  justify-content: center;
+}
 
-  .tab-card p {
-    margin-bottom: 0.5rem;
-  }
+.tab {
+  padding: 10px 20px;
+  margin: 1rem;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
 
-  .t1 {
-    color: var(--sec-color);
-    font-weight: 800;
-    font-size: 16px;
-  }
+.tab:hover {
+  color: var(--sec-color);
+}
 
-  .t2 {
-    font-size: 18px;
-  }
+.tab.active {
+  color: var(--sec-color);
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--sec-color);
+}
 
-  .t3 {
-    color: gray;
-    font-size: 14px;
-  }
+.content {
+  padding: 1.5rem;
+}
+
+.tab-card {
+  background-color: rgb(26, 26, 26);
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.tab-card p {
+  margin-bottom: 0.5rem;
+}
+
+.t1 {
+  color: var(--sec-color);
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.t2 {
+  font-size: 18px;
+}
+
+.t3 {
+  color: gray;
+  font-size: 14px;
+}
 
 
 @media screen and (max-width:550px) {
-    .aboutForm {
-        margin-left: 1.5rem;
-        margin-bottom: 1.5rem;
-        font-size: 0.6rem;
-    }
+  .aboutForm {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.6rem;
+  }
 
 }
 
 @media screen and (max-width:450px) {
 
-    .aboutHeading {
-        font-size: 2rem;
-    }
-    .aboutForm {
-        margin-left: 1.5rem;
-        margin-bottom: 1.5rem;
-        font-size: 0.9rem;
-    }
+  .aboutHeading {
+    font-size: 2rem;
+  }
 
-    #aboutSection {
-        padding: 0;
-        padding-top: 3rem;
-    }
+  .aboutForm {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+  }
 
-    .aboutDetails p {
-        font-size: 0.8rem;
-    }
+  #aboutSection {
+    padding: 0;
+    padding-top: 3rem;
+  }
 
-    .tab-content h3 {
-      font-size: 16px;
-    }
-  
-    .tab-content h4 {
-        font-size: 15px;
-      }
-
-      .container {
-        margin: 0;
-        margin-top: 2rem;
-        padding: 2rem 0;
-        width: 100%;
-      }
+  .container {
+    margin: 0;
+    margin-top: 2rem;
+    padding: 2rem 0;
+    width: 100%;
+  }
 
 }
 
 @media screen and (max-width:370px) {
-    .aboutForm {
-        margin-left: 1.5rem;
-        margin-bottom: 1.5rem;
-        font-size: 0.7rem;
-    }
+  .aboutForm {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.7rem;
+  }
 
-    .aboutDetails p {
-        font-size: 0.6rem;
-    }
+  .content {
+    padding: 1rem 2rem;
+  }
 
-    .tab-content h3 {
-        font-size: 14px;
-      }
-    
-      .tab-content h4 {
-          font-size: 13px;
-        }
-
-        .content {
-            padding: 1rem 2rem;
-        }
+  .tab {
+    margin: 0;
+  }
 
 }
 
 @media screen and (max-width:350px) {
-    .aboutForm {
-        margin-left: 1.5rem;
-        margin-bottom: 1.5rem;
-        font-size: 0.6rem;
-    }
+  .aboutForm {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.6rem;
+  }
 
-    .aboutDetails p {
-        font-size: 0.5rem;
-    }
+  .aboutDetails p {
+    font-size: 0.5rem;
+  }
 
 }
-

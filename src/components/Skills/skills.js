@@ -18,7 +18,7 @@ const Skills = () => {
             <span className="skillsDesc">I am a skilled person who loves to code</span>
             <div className="skillCategory" onClick={() => toggleSection('frontend')}>
                 <div className="categoryHeading" >
-                    <p>Frontend</p><p><FontAwesomeIcon icon={faSortDown} style={{fontSize:'25px',margin:'0'}}/></p>
+                    <p>Frontend</p>
                 </div>
                 <div className={`skillBars ${openSection === 'frontend' ? 'open' : ''}`}>
                     <div className="skillBar">
@@ -37,7 +37,7 @@ const Skills = () => {
                         <img src="https://cdn.iconscout.com/icon/free/png-512/free-react-3521666-2945110.png?f=webp&w=256" alt='React JS' className='skillImg' />
                         <p>React JS</p>
                     </div>
-                    <div className="skillBar">
+                    <div className="skillBar"> 
                         <img src="https://cdn.iconscout.com/icon/free/png-512/free-bootstrap-226077.png?f=webp&w=256" alt='Bootstrap' className='skillImg' />
                         <p>Bootstrap</p>
                     </div>
@@ -46,7 +46,7 @@ const Skills = () => {
             
             <div className="skillCategory" onClick={() => toggleSection('backend')}>
                 <div className="categoryHeading" >
-                <p>Backend</p><span><FontAwesomeIcon icon={faSortDown} style={{fontSize:'25px',margin:'0'}}/></span>
+                <p>Backend</p>
                 </div>
                 <div className={`skillBars ${openSection === 'backend' ? 'open' : ''}`}>
                     <div className="skillBar">
@@ -86,7 +86,7 @@ const Skills = () => {
             
             <div className="skillCategory"  onClick={() => toggleSection('other')}>
                 <div className="categoryHeading">
-                <p>Other Tools</p><span><FontAwesomeIcon icon={faSortDown} style={{fontSize:'25px',margin:'0'}}/></span>
+                <p>Other Tools</p>
                 </div>
                 <div className={`skillBars ${openSection === 'other' ? 'open' : ''}`}>
                     <div className="skillBar">
