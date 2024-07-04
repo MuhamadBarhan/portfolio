@@ -37,8 +37,8 @@ const Projects = () => {
               <span>JavaScript</span>
             </div>
             <div className="project-buttons">
-              <a href='https://mhd-ecommerce.vercel.app/' className='project-btn'>Demo</a>   
-              <a href='https://github.com/MuhamadBarhan/Ecommerce-Website-using-MERN-stack' className='project-btn'>View Code</a>
+              <a href='https://mhd-movie.vercel.app/' className='project-btn'>Demo</a>   
+              <a href='https://github.com/MuhamadBarhan/Movie-Ticket-Booking' className='project-btn'>View Code</a>
             </div>
           </div>
         </div>
