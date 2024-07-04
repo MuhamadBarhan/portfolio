@@ -94,4 +94,8 @@
     .projects-heading {
         font-size: 2rem;
     }
+
+    .project-btn {
+        font-size: 0.8rem;
+    }
 }
