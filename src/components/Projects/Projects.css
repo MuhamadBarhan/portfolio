@@ -1,82 +1,90 @@
 #projects {
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: auto;
+    padding: 2rem;
 }
 
 .project-container {
-    margin: 1.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 2rem;
 }
 
 .projects-heading {
     font-size: 2.5rem;
     font-weight: bolder;
-    border-bottom: 2px solid orange;
+    margin-bottom: 2rem;
 }
 
 .project {
-    background-color: rgb(30, 30, 30);
-    border-radius: 5px;
-    margin: 1rem;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 500px;
-    height: 270px;
+    transition: transform 0.2s;
 }
 
-.project img {
-    object-fit: cover;
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project-image {
     width: 100%;
-    cursor: pointer;
+    height: 200px;
+    object-fit: cover;
 }
 
 .project-details {
-    position: absolute;
-    bottom: 50px;
-    left: 0;
-    width: 100%;
-    height:inherit;
-    background-color: rgba(0, 0, 0, 0.8);
     padding: 1rem;
-    transform: translateY(100%);
-    transition: transform 0.3s ease-out;
+    text-align: left;
 }
 
-.project-details p {
-    margin-bottom: 1.5rem;
+.project-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
 }
 
 .project-desc {
-    font-size: 14px;
-    font-family: sans-serif;
-    letter-spacing: 1.5px;
+    font-size: 1rem;
+    color: #ccc; 
+    margin-bottom: 1rem;
 }
 
-.project:hover .project-details {
-    transform: translateY(50%);
+.tech-stacks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tech-stacks span {
+    font-size: 0.87rem;
+    background-color: #555; 
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 1rem;
 }
 
 .project-btn {
-    padding: 8px 18px;
-    margin-right: 2rem;
-    font-size: 14px;
+    padding: 0.5rem 1rem;
+    font-size: 0.rem;
     cursor: pointer;
-    text-align: center;
     text-decoration: none;
     color: white;
-    background-color: var(--ter-color);
+    background-color: var(--ter-color); 
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
+    transition: background-color 0.2s;
 }
+
 
 @media screen and (max-width: 450px) {
     .project {
