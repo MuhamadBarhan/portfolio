@@ -99,6 +99,6 @@
 @media screen and (max-width:450px) {
     .introContent {
         margin: 0;
-
+        background-color: rgba(0, 0, 0, 0.3);
     }
 }
