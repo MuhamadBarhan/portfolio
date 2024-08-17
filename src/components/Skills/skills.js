@@ -1,26 +1,19 @@
 import React, { useState } from 'react';
 import './skills.css';
 import { useInView } from 'react-intersection-observer';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSortDown } from '@fortawesome/free-solid-svg-icons';
 
 const Skills = () => {
     const [ref, inView] = useInView({ triggerOnce: false });
-    const [openSection, setOpenSection] = useState('');
-
-    const toggleSection = (section) => {
-        setOpenSection(openSection === section ? '' : section);
-    };
 
     return (
         <section id="skills" ref={ref} className={`scroll-container ${inView ? 'animate' : ''}`}>
             <span className="skillsHeading">Skills</span>
             <span className="skillsDesc">I am a skilled person who loves to code</span>
-            <div className="skillCategory" onClick={() => toggleSection('frontend')}>
+            <div className="skillCategory">
                 <div className="categoryHeading" >
                     <p>Frontend</p>
                 </div>
-                <div className={`skillBars ${openSection === 'frontend' ? 'open' : ''}`}>
+                <div className='skillBars'>
                     <div className="skillBar">
                         <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/html-2752158-2284975.png?f=webp" alt='HTML5' className='skillImg' />
                         <p>HTML5</p>
@@ -44,11 +37,11 @@ const Skills = () => {
                 </div>
             </div>
             
-            <div className="skillCategory" onClick={() => toggleSection('backend')}>
+            <div className="skillCategory">
                 <div className="categoryHeading" >
                 <p>Backend</p>
                 </div>
-                <div className={`skillBars ${openSection === 'backend' ? 'open' : ''}`}>
+                <div className='skillBars'>
                     <div className="skillBar">
                         <img src="https://cdn.iconscout.com/icon/free/png-512/free-nodejs-226032.png?f=webp&w=256" alt='Node JS' className='skillImg' />
                         <p>Node JS</p>
@@ -84,11 +77,11 @@ const Skills = () => {
                 </div>
             </div>
             
-            <div className="skillCategory"  onClick={() => toggleSection('other')}>
+            <div className="skillCategory" >
                 <div className="categoryHeading">
                 <p>Other Tools</p>
                 </div>
-                <div className={`skillBars ${openSection === 'other' ? 'open' : ''}`}>
+                <div className='skillBars'>
                     <div className="skillBar">
                         <img src="https://cdn.iconscout.com/icon/free/png-512/free-git-17-1175218.png?f=webp&w=256" alt='Git' className='skillImg' />
                         <p>Git</p>

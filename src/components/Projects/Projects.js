@@ -14,11 +14,12 @@ const Projects = () => {
             <p className='project-title'>ECommerce Website - MERN Stack</p>
             <p className='project-desc'>Developed a dynamic ecommerce website using MERN stack (MongoDB, Express.js, React.js, Node.js).</p>
             <div className='tech-stacks'>
-              <span>ReactJS</span>
-              <span>NodeJS</span>
-              <span>ExpressJS</span>
-              <span>MongoDB</span>
-              <span>Redux</span>
+              <span>#ReactJS</span>
+              <span>#NodeJS</span>
+              <span>#ExpressJS</span>
+              <span>#MongoDB</span>
+              <span>#Redux</span>
+              <span>#Razorpay</span>
             </div>
             <div className="project-buttons">
               <a href='https://mhd-ecommerce.vercel.app/' className='project-btn'>Demo</a>   
@@ -32,9 +33,9 @@ const Projects = () => {
             <p className='project-title'>Movie Ticket Booking</p>
             <p className='project-desc'>Developed frontend using React.js and the website is responsive across devices.</p>
             <div className='tech-stacks'>
-              <span>ReactJS</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
+              <span>#ReactJS</span>
+              <span>#CSS</span>
+              <span>#JavaScript</span>
             </div>
             <div className="project-buttons">
               <a href='https://mhd-movie.vercel.app/' className='project-btn'>Demo</a>   
@@ -47,9 +48,10 @@ const Projects = () => {
             <p className='project-title'>Trash Management - Admin Panel</p>
             <p className='project-desc'>Developed an admin panel that displays the data from Firebase.</p>
             <div className='tech-stacks'>
-              <span>ReactJS</span>
-              <span>Firebase</span>
-              <span>Material-UI</span>
+              <span>#HTML</span>
+              <span>#CSS</span>
+              <span>#JavaScript</span>
+              <span>#Firebase</span>
             </div>
             <div className="project-buttons">
               <a href='#' className='project-btn'>Demo</a>   

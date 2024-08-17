@@ -62,10 +62,10 @@
 }
 
 .tech-stacks span {
-    font-size: 0.87rem;
-    background-color: #555; 
+    font-size: 0.8rem;
+   border: 1px solid grey; 
     padding: 0.3rem 0.5rem;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .project-buttons {
