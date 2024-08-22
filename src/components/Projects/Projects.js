@@ -45,6 +45,22 @@ const Projects = () => {
         </div>
         <div className="project">
           <div className="project-details">
+            <p className='project-title'>User Profile Management </p>
+            <p className='project-desc'>Successfully designed and implemented a comprehensive User Profile Management System using Spring Boot, integrating advanced features like custom user authentication, role-based access control, and profile management.</p>
+            <div className='tech-stacks'>
+              <span>#Springboot</span>
+              <span>#HTML</span>
+              <span>#Bootstrap</span>
+              <span>#JavaScript</span>
+            </div>
+            <div className="project-buttons">
+              <a href='#' className='project-btn'>Demo</a>   
+              <a href='https://github.com/MuhamadBarhan/User-Management-Spring-Boot' className='project-btn'>View Code</a>
+            </div>
+          </div>
+        </div>
+        <div className="project">
+          <div className="project-details">
             <p className='project-title'>Trash Management - Admin Panel</p>
             <p className='project-desc'>Developed an admin panel that displays the data from Firebase.</p>
             <div className='tech-stacks'>
@@ -55,7 +71,7 @@ const Projects = () => {
             </div>
             <div className="project-buttons">
               <a href='#' className='project-btn'>Demo</a>   
-              <a href='#' className='project-btn'>View Code</a>
+              <a href='https://github.com/MuhamadBarhan/Trash-Management-Admin-Panel' className='project-btn'>View Code</a>
             </div>
           </div>
         </div>
