@@ -10,7 +10,7 @@
 }
 
 .left-co {
-  width: 500px;
+  width: 600px;
 }
 
 .scroll-container {
@@ -67,6 +67,8 @@
 /* Education and Experience Tabs */
 .container {
   margin-left: 5rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
 }
 
 .tabs {
