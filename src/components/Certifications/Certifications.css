@@ -12,23 +12,46 @@
     font-size: 2.5rem;
     font-weight: bolder;
     border-bottom: 2px solid orange;
+    margin-bottom: 2rem;
 }
 
-.certificates {
-    display: grid;
-    grid-template-columns: auto auto;
+.certificate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
 
 .certificate {
-    width: 400px;
-    height: 250px;
-    margin: 1.5rem;
+    padding: 1.3rem;
+    background-color: #383838;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 1.5rem;
+    border-radius: 20px;
+    width: 100%; 
+    max-width: 400px; 
+}
+
+.certificate p {
+    margin: 0;
+}
+
+.certificate a {
+    color: white;
+    border: 1px solid grey; 
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    margin-left: auto; 
 }
 
 @media screen and (max-width:450px) {
-    .certificates {
-        grid-template-columns: auto;
-    }
+   .certificate {
+        width: 90vw;
+        max-width: none;
+   }
 
     .cert-heading {
         font-size: 2rem;
