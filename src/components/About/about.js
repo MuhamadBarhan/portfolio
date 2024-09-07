@@ -22,17 +22,17 @@ const About = () => {
 
     const containerVariants = {
         hidden: { opacity: 0, y: 50 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.8, staggerChildren: 0.2 } }
+        visible: { opacity: 1, y: 0, transition: { duration: 0.3, staggerChildren: 0.2 } }
     };
 
     const paragraphVariants = {
         hidden: { opacity: 0, x: -30 },
-        visible: { opacity: 1, x: 0, transition: { duration: 0.5 } }
+        visible: { opacity: 1, x: 0, transition: { duration: 0.3 } }
     };
 
     const tabCardVariants = {
-        hidden: { opacity: 0, x: -50 }, // Start off to the left
-        visible: { opacity: 1, x: 0, transition: { duration: 0.5 } } // Animate into view from left to right
+        hidden: { opacity: 0, x: -50 }, 
+        visible: { opacity: 1, x: 0, transition: { duration: 0.5 } } 
     };
 
     return (
