@@ -34,8 +34,8 @@ const Contact = () => {
 
   return (
     <section id='contact' ref={ref} className={`scroll-container ${inView ? 'animate' : ''}`}>
-      <span className="contactHeading">Let's Connect</span>
-      <span className="contactDesc">Fill out the details</span>
+    <span className="contactHeading">Let's <span style={{color:'#ebb52d'}}>Connect</span></span>
+    <span className="contactDesc">Fill the form below to get in touch.</span>
       <div className="contact-ref">
 
       </div>

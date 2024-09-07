@@ -49,22 +49,22 @@
 }
 
 .navMenu {
-    position: fixed; /* Changed from absolute to fixed to stay off-screen */
+    position: fixed; 
     z-index: 2;
     display: flex;
     flex-direction: column;
     top: 4rem;
-    right: -100%; /* Completely off-screen initially */
+    right: -100%; 
     background: var(--main-color);
     border-radius: 0.5rem;
-    transition: right 0.3s ease-in-out; /* Smooth transition for sliding */
-    height: auto; /* No need for height animation */
+    transition: right 0.3s ease-in-out; 
+    height: auto; 
     overflow: hidden;
-    width: 200px; /* Adjust width as needed */
+    width: 200px; 
 }
 
 .navMenu.show {
-    right: 0; /* Slide into view */
+    right: 0; 
 }
 
 
