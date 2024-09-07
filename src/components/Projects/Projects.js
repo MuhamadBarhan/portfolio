@@ -118,8 +118,8 @@ const Projects = () => {
                 ))}
               </div>
               <div className="project-buttons">
-                {project.demoLink && <a href={project.demoLink} className='project-btn'>View Demo</a>}
-                <a href={project.codeLink} className='project-btn'>Code</a>
+                {project.demoLink && <a href={project.demoLink} className='project-btn'>Demo</a>}
+                <a href={project.codeLink} className='project-btn'>View Code</a>
               </div>
             </div>
           </motion.div>
