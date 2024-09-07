@@ -12,7 +12,7 @@ const Skills = () => {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.5,
+        duration: 0.4,
         delay: index * 0.3, // Staggered animation delay
       },
     }),
@@ -61,7 +61,7 @@ const Skills = () => {
       <motion.span
         className="skillsHeading"
         initial={{ opacity: 0, y: -20 }}
-        animate={inView ? { opacity: 1, y: 0, transition: { duration: 0.5 } } : {}}
+        animate={inView ? { opacity: 1, y: 0, transition: { duration: 0.3 } } : {}}
       >
         Skills
       </motion.span>

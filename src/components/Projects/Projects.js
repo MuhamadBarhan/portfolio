@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 const Projects = () => {
   const [sectionRef, sectionInView] = useInView({
     triggerOnce: false,
-    threshold: 0.2,
+    threshold: 0.05,
   });
 
   const cardVariants = {
@@ -17,7 +17,7 @@ const Projects = () => {
       opacity: 1,
       x: 0,
       transition: { 
-        duration: 0.6, 
+        duration: 0.4, 
         delay: index * 0.2  // Staggering animation by index
       }
     }),

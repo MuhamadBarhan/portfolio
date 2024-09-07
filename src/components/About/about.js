@@ -11,7 +11,7 @@ const About = () => {
     // For the entire section animation
     const [ref, inView] = useInView({
         triggerOnce: false, // Allow the animation to trigger multiple times
-        threshold: 0.2, // Element should be 20% in view to trigger
+        threshold: 0.05, // Element should be 20% in view to trigger
     });
 
     // For tab card animations
