@@ -119,7 +119,7 @@ const Projects = () => {
               </div>
               <div className="project-buttons">
                 {project.demoLink && <a href={project.demoLink} className='project-btn'>Demo</a>}
-                <a href={project.codeLink} className='project-btn'>View Code</a>
+                <a href={project.codeLink} className='project-btn'>Code</a>
               </div>
             </div>
           </motion.div>
