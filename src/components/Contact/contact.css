@@ -76,6 +76,15 @@
 input {
     margin: 0.5rem;
 }
+input:focus {
+    outline: none; 
+    border: none;  
+}
+textarea:focus {
+    outline: none; 
+    border: none;  
+}
+
 
 /* ScrollComponent.css */
 .scroll-container {
