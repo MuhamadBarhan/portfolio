@@ -13,7 +13,7 @@ const Skills = () => {
       y: 0,
       transition: {
         duration: 0.4,
-        delay: index * 0.3, // Staggered animation delay
+        delay: index * 0.3, 
       },
     }),
   };
