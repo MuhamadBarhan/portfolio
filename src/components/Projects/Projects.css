@@ -19,8 +19,7 @@
 }
 
 .project {
-    background-color: #21232c;
-    border: 1px solid rgb(58, 58, 58);
+    background-color: #2b2b2b;
     color:#ccc;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
@@ -81,10 +80,9 @@
     cursor: pointer;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    background-color: rgb(48, 48, 48);
+    background-color: #1f2331;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
     border-radius: 20px;
-    border: 1px solid grey;
     transition: background-color 0.2s;
 }
 
