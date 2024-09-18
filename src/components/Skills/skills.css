@@ -24,7 +24,7 @@
 
 .skillBars {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 1rem;
     height: auto;
     opacity: 1;
@@ -34,7 +34,7 @@
     background: #303030;
     border-radius: 0.5rem;
     margin: 0.5rem;
-    padding:1rem 0.5rem;
+    padding: 1rem 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@
 }
 
 .skillBar p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .skillImg {
@@ -65,12 +65,12 @@
 }
 
 /* ScrollComponent.css */
-.scroll-container { 
+.scroll-container {
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.8s, transform 0.8s;
 }
-  
+
 .scroll-container.animate {
     opacity: 1;
     transform: translateY(0);
@@ -99,17 +99,27 @@
     .skillCategory {
         width: 90vw;
     }
-    .skillImg{
+
+    .skillImg {
         width: 25%;
     }
 
+    .skillBar p {
+        font-size: 11px;
+    }
+
 }
-  
+
 @media screen and (max-width: 370px) {
     .skillsDesc {
         font-size: 14px;
     }
-    .skillImg{
+
+    .skillImg {
         width: 25%;
+    }
+
+    .skillBar p {
+        font-size: 11px;
     }
 }

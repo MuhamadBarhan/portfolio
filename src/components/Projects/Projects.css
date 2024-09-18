@@ -75,12 +75,12 @@
 }
 
 .project-btn {
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1.2rem;
     font-size: 0.8rem;
     cursor: pointer;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    background-color: #1f2331;
+    background-color: #777777;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
     border-radius: 20px;
     transition: background-color 0.2s;
