@@ -4,6 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
+import resume from '../../assets/Muhamad_Barhan_Fullstack_Developer_Resume.pdf';
 
 const About = () => {
     const [activeTab, setActiveTab] = useState('education');
@@ -75,7 +76,7 @@ const About = () => {
                             className="cvBtn"
                             variants={paragraphVariants}
                         >
-                            <a href='https://drive.google.com/file/d/1HdfoZAhShi7mmGDvseMvdjBosWcCZrGc/view?usp=drive_link'>Resume</a>
+                            <a href={resume}>Resume</a>
                         </motion.button>
                     </div>
                     <hr></hr>
