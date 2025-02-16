@@ -51,6 +51,14 @@ const Projects = () => {
       codeLink: 'https://github.com/MuhamadBarhan/Chat-App'
     },
     {
+      title: 'Weather App',
+      date: 'Sep 2024',
+      description: 'Successfully designed and implemented a Weather Application using React, integrating real-time weather data from APIs, featuring dynamic forecasts, location-based weather updates, and an intuitive user interface for enhanced user experience.',
+      techStack: ['NextJS', 'Tailwind CSS', 'Weather API'],
+      demoLink: 'https://mhd-weather.vercel.app/',
+      codeLink: 'https://github.com/MuhamadBarhan/Weather-Forecast/'
+    },
+    {
       title: 'User Profile Management',
       date: 'May 2024',
       description: 'Successfully designed and implemented a comprehensive User Profile Management System using Spring Boot, integrating advanced features like custom user authentication, role-based access control, and profile management.',
