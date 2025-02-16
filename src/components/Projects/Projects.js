@@ -43,6 +43,14 @@ const Projects = () => {
       codeLink: 'https://github.com/MuhamadBarhan/Movie-Ticket-Booking'
     },
     {
+      title: 'Chat App-MERN',
+      date: 'Dec 2024',
+      description: 'Successfully designed and implemented a real-time Chat Application using the MERN stack (MongoDB, Express.js, React.js, Node.js), integrating advanced features like WebSocket-based messaging and user authentication',
+      techStack: ['ReactJS', 'NodeJS', 'MongoDB', 'ExpressJS', 'Tailwind CSS', 'Web Sockets'],
+      demoLink: 'https://chat-app-mjgk.onrender.com/',
+      codeLink: 'https://github.com/MuhamadBarhan/Chat-App'
+    },
+    {
       title: 'User Profile Management',
       date: 'May 2024',
       description: 'Successfully designed and implemented a comprehensive User Profile Management System using Spring Boot, integrating advanced features like custom user authentication, role-based access control, and profile management.',
