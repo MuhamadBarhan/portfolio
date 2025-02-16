@@ -44,8 +44,8 @@ const Contact = () => {
         <input type="email" id="email" placeholder='Your Email' name='from_email' required />
         <textarea id="message" name="message" placeholder='Your Message' rows="5" required />
         <button type="submit" className='contactBtn' disabled={loading}>
-          {loading ? <span className="spinner"></span> : 'Submit'}
-          {loading && 'Submitting...'}</button>
+          {loading ? <span className="spinner"></span> : 'Send'}
+        </button>
         <div><Toaster /></div>
       </form>
     </section>
