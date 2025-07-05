@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Helmet>
         <title>Muhamad Barhan | Full Stack Developer Portfolio</title>
-        <meta name="description" content="Explore Barhan's projects, skills, and experience as a full stack developer." />
+        <meta name="description" content="Explore Muhamad Barhan's projects, skills, and experience as a full stack developer." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://your-portfolio.vercel.app/" />
       </Helmet>
