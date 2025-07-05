@@ -98,6 +98,13 @@ textarea:focus {
     transform: translateY(0);
 }
 
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
 @media screen and (max-width:370px){
     .contactDesc {
         font-size: 14px;
@@ -112,6 +119,10 @@ textarea:focus {
 @media screen and (max-width:450px){
     .contactHeading {
         font-size: 2rem;
+    }
+
+    .map-container {
+        padding: 1rem;
     }
     
 }
