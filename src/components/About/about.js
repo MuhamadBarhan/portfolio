@@ -106,7 +106,7 @@ const About = () => {
                                     key="education"
                                 >
                                     <motion.div className="tab-card" variants={tabCardVariants}>
-                                        <img src={ucen} style={{ width: '250px' }} />
+                                        <img src={ucen} style={{ width: '280px' }} />
                                         <div>
                                             <p className='t1'>2021-2025</p>
                                             <p className='t2'>B.Tech Information Technology</p>
