@@ -24,14 +24,16 @@
 
 .skillBars {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin: 1rem;
     height: auto;
     opacity: 1;
 }
 
 .skillBar {
-    /* background: #303030; */
+       background-color: #222222;
+
+    /* border-left: 1px solid white; */
     border-radius: 0.5rem;
     margin: 0.5rem;
     padding: 1rem 0.5rem;

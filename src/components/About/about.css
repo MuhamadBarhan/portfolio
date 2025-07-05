@@ -6,11 +6,21 @@
 
 .about-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 4rem;
 }
 
 .left-co {
-  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 600px;
 }
 
 .scroll-container {
@@ -24,29 +34,27 @@
   transform: translateY(0);
 }
 
-
 .aboutHeading {
   font-size: 2.5rem;
   font-weight: bolder;
-  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
 }
 
 .aboutDesc {
-  font-size: medium;
+  font-size: 1rem;
   font-weight: 300;
-  letter-spacing: 1px;
   color: grey;
-  margin-left: 2rem;
-
+  margin-bottom: 1rem;
+  text-align: left;
 }
 
-
 .aboutme {
-  margin-left: 2rem;
   font-weight: 300;
-  margin: 2rem;
-  color: '#f6f6f6';
+  color: #f6f6f6;
   line-height: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
 }
 
 .cvBtn {
@@ -55,7 +63,6 @@
   padding: 0.75rem 2rem;
   border-radius: 2rem;
   border: none;
-  margin: 2rem;
   cursor: pointer;
 }
 
@@ -64,16 +71,18 @@
   color: white;
 }
 
-/* Education and Experience Tabs */
 .container {
-  margin-left: 5rem;
+  background-color: #222222;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
+  padding: 2rem;
+  width: 80%;
 }
 
 .tabs {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .tab {
@@ -83,21 +92,18 @@
   border: none;
   color: white;
   font-size: 16px;
-  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+  background: none;
 }
 
-.tab:hover {
-  color: var(--sec-color);
-}
-
+.tab:hover,
 .tab.active {
   color: var(--sec-color);
-  padding-bottom: 0.5rem;
   border-bottom: 3px solid var(--sec-color);
 }
 
 .content {
-  padding: 1.5rem;
+  padding: 1.5rem 0;
 }
 
 .tab-card {
@@ -105,6 +111,10 @@
   padding: 1.5rem;
   border-radius: 5px;
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .tab-card p {
@@ -126,68 +136,98 @@
   font-size: 14px;
 }
 
-
-@media screen and (max-width:550px) {
-  .aboutForm {
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-    font-size: 0.6rem;
-  }
+.exp-edu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
-@media screen and (max-width:450px) {
+.profile-wrapper {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+}
+
+.profile-background {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  background-color: #232323;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  transform: rotate(5deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-wrapper:hover .profile-background {
+  transform: rotate(6deg);
+}
+
+.profile-image-container {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  background: transparent;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image {
+  border-radius: 10px;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: cover;
+}
+
+/* ---------------------- Responsive ---------------------- */
+@media screen and (max-width: 768px) {
+  #aboutSection {
+    padding: 2rem;
+  }
+
+  .left-co {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
 
   .aboutHeading {
     font-size: 2rem;
+    text-align: left;
   }
 
-  .aboutForm {
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-    font-size: 0.9rem;
+  .aboutDesc {
+    text-align: left;
   }
 
-  #aboutSection {
-    padding: 0;
-    padding-top: 3rem;
+  .aboutme {
+    margin: 0 auto 1.5rem;
+    text-align: left;
   }
 
+  .tab-card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
   .container {
-    margin: 0;
-    margin-top: 2rem;
-    padding: 2rem 0;
     width: 100%;
   }
-
 }
 
-@media screen and (max-width:370px) {
-  .aboutForm {
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-    font-size: 0.7rem;
-  }
-
-  .content {
-    padding: 1rem 2rem;
-  }
-
+@media screen and (max-width: 450px) {
   .tab {
-    margin: 0;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 0.5rem;
   }
 
-}
-
-@media screen and (max-width:350px) {
-  .aboutForm {
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-    font-size: 0.6rem;
+  .tab-card {
+    gap: 1rem;
   }
-
-  .aboutDetails p {
-    font-size: 0.5rem;
-  }
-
 }
